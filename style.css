@@ -1,20 +1,26 @@
 * {
     box-sizing: border-box;
 }
-html, body {
+
+html,
+body {
     height: 100%;
 }
+
 body {
     margin: 0px;
 }
+
 ul {
     margin: 0px;
     padding: 0px;
-} 
+}
+
 ul>li {
     margin: 0;
     padding: 0;
 }
+
 ul>li {
     list-style: 0;
 }
@@ -23,16 +29,113 @@ ul>li {
 .wrapper {
     min-height: 100%;
 }
-.logo {
 
-}
 .logo__img-wrap {
     width: 60px;
     height: 60px;
     border: 2px solid #000000;
     border-radius: 50%;
+    position: relative;
 }
+
 .logo__img {
     width: 70%;
     height: 80%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 131.19%;
+    color: #000000;
+}
+
+.logo__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 131.19%;
+    color: #000000;
+}
+
+.nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact__tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+}
+
+.cart {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.14);
+    border-radius: 50px;
+    position: relative;
+}
+
+.cart__img-wrap {
+    width: 60px;
+    height: 60px;
+    background: #FFBF42;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+
+.cart__img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart__price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.cart__btn {
+    background: transparent;
+    border: none;
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+
+.cart__btn-img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
