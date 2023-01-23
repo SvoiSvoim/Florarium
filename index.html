@@ -54,6 +54,11 @@
                         <img src="img/icons/cart__btn.svg" alt="кнопка" class="cart__btn-img">
                     </button>
                 </div>
+                <a href="#!" class="hamburger">
+                    <span class="hamburger__plank"></span>
+                    <span class="hamburger__plank hamburger__plank_size_long"></span>
+                    <span class="hamburger__plank"></span>
+                </a>
             </div>
         </header>
         <section class="hero">
@@ -113,8 +118,8 @@
                 </ul>
                 <div class="product__slider">
                     <div class="product__slider-ctrls">
-                        <button class="product__slider-ctrl product__slider-ctrl--prev">Назад</button>
-                        <button class="product__slider-ctrl product__slider-ctrl--next">Вперед</button>
+                        <button class="control product__slider-prev">Назад</button>
+                        <button class="control product__slider-next">Вперед</button>
                     </div>
                     <ul class="product__list">
                         <li class="product__item card">
@@ -133,7 +138,7 @@
                         </li>
                         <li class="product__item card">
                             <div class="card__img-wrap">
-                                <img src="img/finished_work/dunay.png" alt="Oasis" class="product__img">
+                                <img src="img/finished_work/dunay.png" alt="Dunai" class="product__img">
                             </div>
                             <div class="card__desc">
                                 <h3 class="card__name">"Дунай"</h3>
@@ -147,7 +152,7 @@
                         </li>
                         <li class="product__item card">
                             <div class="card__img-wrap">
-                                <img src="img/finished_work/oazis.png" alt="Oasis" class="product__img">
+                                <img src="img/finished_work/riva.png" alt="Riva" class="product__img">
                             </div>
                             <div class="card__desc">
                                 <h3 class="card__name">"Рива"</h3>
@@ -255,33 +260,38 @@
                 </ul>
             </div>
         </section>
-        <div class="container">
-            <footer class="footer footer__container">
-                <div class="logo">
-                    <div class="logo__img-wrap">
-                        <img class="logo__img" src="img/logo.png" alt="логотип">
+        <div class="footer">
+            <footer class="container footer__container">
+                <div class="footer__content">
+                    <div class="logo">
+                        <div class="logo__img-wrap">
+                            <img class="logo__img" src="img/logo.png" alt="логотип">
+                        </div>
+                        <div class="logo__desc">
+                            <div class="logo__title">Florist master</div>
+                            <div class="logo__subtitle">Магазин флорариумов</div>
+                        </div>
                     </div>
-                    <div class="logo__desc">
-                        <div class="logo__title">Florist master</div>
-                        <div class="logo__subtitle">Магазин флорариумов</div>
-                    </div>
+                    <nav class="nav footer__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Каталог</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="contact">
+                        <a href="tel:+765432100" class="contact__tel">+765432100</a>
+                    </address>
                 </div>
-                <nav class="nav header__nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Главная</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Каталог</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contact">
-                    <a href="tel:+765432100" class="contact__tel">+765432100</a>
-                </address>
+                <div>
+                    <a href="#" class="control footer__link"></a>
+                </div>
             </footer>
         </div>
     </div>
