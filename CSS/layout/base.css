@@ -43,7 +43,15 @@ ul>li {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
+.main {
+    flex: 1;
+}
+
+/* обернули все секции в main чтобы при удалении всех секиц, сеция ФУТУР была на месте а не прилепала бы к хэдеру */
 
 .container {
     max-width: 1242px;
